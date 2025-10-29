@@ -48,7 +48,7 @@ const Experience = () => {
       period: "Aug 2024 – Present",
       location: "Gurugram, India",
       highlights: [
-        "Developed and maintained 12+ interactive Tableau and Power BI dashboards communicating trends, patterns, and insights",
+        "Developed and maintained 12+ interactive Power BI dashboards communicating trends, patterns, and insights",
         "Performed ETL operations on large datasets (5M+ rows) from diverse sources including Snowflake SQL, SQL Server, Excel, and SharePoint",
         "Built and optimised 15+ data models in Power BI using Performance Tuning",
         "Published 15+ dashboards to Power BI Service with Row-Level Security (RLS) and workspace management",
