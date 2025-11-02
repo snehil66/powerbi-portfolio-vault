@@ -46,9 +46,9 @@ const CertificationItem = ({ title, organization, certificateUrl }: Certificatio
 
           {/* Badge below button */}
           <div className="mt-3">
-            <Badge className="bg-gray-800/80 text-gray-300 border-gray-700">
+            {/* <Badge className="bg-gray-800/80 text-gray-300 border-gray-700">
               {organization}
-            </Badge>
+            </Badge> */}
           </div>
         </div>
       </div>
