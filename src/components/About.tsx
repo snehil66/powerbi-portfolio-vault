@@ -9,7 +9,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-cyan-400 text-center mb-12 text-lg">
-            I’m working as a Power BI Developer, shaping digital landscapes through seamless development and actionable insights. I enjoy collaborating on innovative and inspiring ideas, and I’m always open to discussions around ETL development, data visualization, technology, and productivity improvement
+            As a Power BI Developer, shaping digital landscapes through seamless development and actionable insights. I enjoy collaborating on innovative and inspiring ideas, and I’m always open to discussions around ETL development, data visualization, technology, and productivity improvement.
           </p>
           
           <Card className="bg-gray-900/50 border-gray-800/50 backdrop-blur-sm p-8">

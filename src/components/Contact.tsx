@@ -83,7 +83,7 @@ const Contact = () => {
                   <div className="space-y-4 mb-8">
                     {/* GitHub */}
                     <a
-                      href="https://github.com/snehil66"
+                      href="https://www.linkedin.com/in/snehil66/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="group block"
@@ -104,7 +104,7 @@ const Contact = () => {
 
                     {/* LinkedIn */}
                     <a
-                      href="https://linkedin.com/in/snehi66/"
+                      href="https://www.linkedin.com/in/snehil66/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="group block"
