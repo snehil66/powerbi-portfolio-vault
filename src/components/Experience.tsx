@@ -5,12 +5,12 @@ import { Briefcase } from "lucide-react";
 interface ExperienceItemProps {
   company: string;
   role: string;
-  period: string;
+  // period: string;
   location: string;
   highlights: string[];
 }
 
-const ExperienceItem = ({ company, role, period, location, highlights }: ExperienceItemProps) => {
+const ExperienceItem = ({ company, role, location, highlights }: ExperienceItemProps) => {
   return (
     <Card className="bg-gray-900/50 border-gray-800/50 backdrop-blur-sm p-6 hover:border-cyan-500/50 transition-all duration-300">
       <div className="flex gap-4">
@@ -23,7 +23,7 @@ const ExperienceItem = ({ company, role, period, location, highlights }: Experie
           <h3 className="text-xl font-bold text-white mb-1">{role}</h3>
           <p className="text-lg font-semibold text-cyan-400 mb-1">{company}</p>
           <div className="flex flex-wrap gap-2 mb-4">
-            <Badge className="bg-gray-800/80 text-gray-300 border-gray-700">{period}</Badge>
+            {/* <Badge className="bg-gray-800/80 text-gray-300 border-gray-700">{period}</Badge> */}
             <Badge className="bg-gray-800/50 text-gray-400 border-gray-700/50">{location}</Badge>
           </div>
           <ul className="space-y-2">
@@ -45,10 +45,14 @@ const Experience = () => {
     {
       company: "WM India",
       role: "Developer II - Business Intelligence",
-      period: "Aug 2024 – Present",
+      // period: "Aug 2024 – Present",
       location: "Gurugram, India",
       highlights: [
         "Developed and maintained 12+ interactive Power BI dashboards communicating trends, patterns, and insights",
+        "Managing the Finance and Operations dashboard, ensuring accurate financial and operations reporting and maintaining high data integrity across monthly closings",
+        "Integrated data from various sources such as Snowflake SQL, SQL Server, Excel, SharePoint, and cloud platforms",
+        "Maintained documentation for BI solutions, including data flows, report logic, and troubleshooting steps",
+        "Collaborated with cross-functional teams (analysts, engineers, stakeholders) to gather requirements and deliver 10+ high-impact BI solutions",
         "Performed ETL operations on large datasets (5M+ rows) from diverse sources including Snowflake SQL, SQL Server, Excel, and SharePoint",
         "Built and optimised 15+ data models in Power BI using Performance Tuning",
         "Published 15+ dashboards to Power BI Service with Row-Level Security (RLS) and workspace management",
@@ -58,7 +62,7 @@ const Experience = () => {
     {
       company: "IIT Kanpur Development Foundation",
       role: "Data Analyst",
-      period: "July 2023 – Feb 2024",
+      // period: "July 2023 – Feb 2024",
       location: "Kanpur, India",
       highlights: [
         "Empowered donation teams by creating user-friendly dashboards and reports using Power BI, SharePoint and Excel",
@@ -69,8 +73,8 @@ const Experience = () => {
     },
     {
       company: "Nagarro",
-      role: "Associate Engineer (Data Analyst)",
-      period: "April 2022 – April 2023",
+      role: "Associate Engineer",
+      // period: "April 2022 – April 2023",
       location: "Gurugram, India",
       highlights: [
         "Utilized MSSQL, Excel and Power BI for data processing and analysis",

@@ -9,7 +9,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-cyan-400 text-center mb-12 text-lg">
-            Transforming data into insights, one dashboard at a time
+            I’m working as a Power BI Developer, shaping digital landscapes through seamless development and actionable insights. I enjoy collaborating on innovative and inspiring ideas, and I’m always open to discussions around ETL development, data visualization, technology, and productivity improvement
           </p>
           
           <Card className="bg-gray-900/50 border-gray-800/50 backdrop-blur-sm p-8">
@@ -17,7 +17,7 @@ const About = () => {
               Summary
             </h3>
             <p className="text-lg leading-relaxed text-gray-300 mb-4">
-              Experienced BI Developer with 2+ years of experience developing data-driven solutions using{" "}
+              I'm experienced BI Developer with 3+ years of experience developing data-driven solutions using{" "}
               <span className="text-cyan-400 font-semibold">SQL Server, Snowflake SQL, MySQL, Python</span>, and{" "}
               <span className="text-blue-400 font-semibold">Power BI</span>. 
               Expertise in data modeling, DAX calculations, and ETL processes, ensuring accurate and efficient data transformation.
