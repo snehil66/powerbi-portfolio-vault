@@ -111,7 +111,8 @@ const Certifications = () => {
     //     </div>
     //   </div>
     // </section>
-      // <div className="min-h-screen bg-background py-12 px-4 sm:px-6 lg:px-8">
+
+      <div className="min-h-screen bg-background py-20 bg-black">
       <div className="max-w-6xl mx-auto">
         <header className="text-center mb-12">
           <h1 className="text-4xl font-bold text-foreground mb-3">
@@ -133,7 +134,7 @@ const Certifications = () => {
           ))}
         </div>
       </div>
-    // </div> 
+    </div> 
   );
 };
 
