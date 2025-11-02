@@ -112,16 +112,14 @@ const Certifications = () => {
     //   </div>
     // </section>
 
-      <div className="min-h-screen bg-background py-20 bg-black">
-      <div className="max-w-6xl mx-auto">
-        <header className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-foreground mb-3">
-            Professional Certifications
-          </h1>
-          <p className="text-muted-foreground text-lg">
-            Showcasing my expertise in data analytics and business intelligence
-          </p>
-        </header>
+     <section className="py-20 bg-black" id="certifications">
+      <div className="container mx-auto px-6">
+        <h2 className="text-4xl font-bold mb-4 text-center text-white">
+          Certifications & Training
+        </h2>
+        <p className="text-cyan-400 text-center mb-12 text-lg">
+          Continuous learning and professional development
+        </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {certifications.map((cert, index) => (
@@ -134,7 +132,7 @@ const Certifications = () => {
           ))}
         </div>
       </div>
-    </div> 
+    </section> 
   );
 };
 
