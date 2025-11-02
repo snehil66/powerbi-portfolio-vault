@@ -20,7 +20,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-2xl md:text-3xl mb-4 text-gray-300 font-semibold">
-            Business Intelligence Developer{" "}
+            Power BI Developer{" "}
             {/* <span className="text-cyan-400">@ WM India</span> */}
           </p>
           
