@@ -12,24 +12,24 @@ interface ExperienceItemProps {
 
 const ExperienceItem = ({ company, role, period, location, highlights }: ExperienceItemProps) => {
   return (
-    <Card className="p-6 hover:shadow-xl transition-shadow duration-300">
+    <Card className="bg-gray-900/50 border-gray-800/50 backdrop-blur-sm p-6 hover:border-cyan-500/50 transition-all duration-300">
       <div className="flex gap-4">
         <div className="flex-shrink-0">
-          <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-            <Briefcase className="text-primary-foreground" size={24} />
+          <div className="w-12 h-12 rounded-full bg-gradient-to-br from-cyan-500/20 to-blue-600/20 border border-cyan-500/30 flex items-center justify-center">
+            <Briefcase className="text-cyan-400" size={24} />
           </div>
         </div>
         <div className="flex-grow">
-          <h3 className="text-xl font-bold text-foreground mb-1">{role}</h3>
-          <p className="text-lg font-semibold text-accent mb-1">{company}</p>
+          <h3 className="text-xl font-bold text-white mb-1">{role}</h3>
+          <p className="text-lg font-semibold text-cyan-400 mb-1">{company}</p>
           <div className="flex flex-wrap gap-2 mb-4">
-            <Badge variant="secondary">{period}</Badge>
-            <Badge variant="outline">{location}</Badge>
+            <Badge className="bg-gray-800/80 text-gray-300 border-gray-700">{period}</Badge>
+            <Badge className="bg-gray-800/50 text-gray-400 border-gray-700/50">{location}</Badge>
           </div>
           <ul className="space-y-2">
             {highlights.map((highlight, index) => (
-              <li key={index} className="flex gap-2 text-muted-foreground">
-                <span className="text-accent mt-1">▸</span>
+              <li key={index} className="flex gap-2 text-gray-300">
+                <span className="text-cyan-400 mt-1">▸</span>
                 <span>{highlight}</span>
               </li>
             ))}
@@ -81,11 +81,14 @@ const Experience = () => {
   ];
 
   return (
-    <section className="py-20 bg-muted/30" id="experience">
+    <section className="py-20 bg-gray-950" id="experience">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold mb-12 text-center bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+        <h2 className="text-4xl font-bold mb-4 text-center text-white">
           Professional Experience
         </h2>
+        <p className="text-cyan-400 text-center mb-12 text-lg">
+          Building data solutions that drive business decisions
+        </p>
         <div className="max-w-4xl mx-auto space-y-6">
           {experiences.map((exp, index) => (
             <div
