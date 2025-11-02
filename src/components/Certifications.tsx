@@ -45,11 +45,11 @@ const CertificationItem = ({ title, organization, certificateUrl }: Certificatio
           </Button>
 
           {/* Badge below button */}
-          <div className="mt-3">
-            {/* <Badge className="bg-gray-800/80 text-gray-300 border-gray-700">
+          {/* <div className="mt-3">
+            <Badge className="bg-gray-800/80 text-gray-300 border-gray-700">
               {organization}
-            </Badge> */}
-          </div>
+            </Badge>
+          </div> */}
         </div>
       </div>
     </Card>
