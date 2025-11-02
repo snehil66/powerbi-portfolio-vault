@@ -87,10 +87,31 @@ const Certifications = () => {
     provider: "Forage",
     certificateUrl: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_CtPqcyX4xFHW4oLmv_1720357644030_completion_certificate.pdf"
   }
-];
+  ];
 
   return (
-    <div className="min-h-screen bg-background py-12 px-4 sm:px-6 lg:px-8">
+    // <section className="py-20 bg-black" id="certifications">
+    //   <div className="container mx-auto px-6">
+    //     <h2 className="text-4xl font-bold mb-4 text-center text-white">
+    //       Certifications & Training
+    //     </h2>
+    //     <p className="text-cyan-400 text-center mb-12 text-lg">
+    //       Continuous learning and professional development
+    //     </p>
+    //     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+    //       {certifications.map((cert, index) => (
+    //         <div
+    //           key={index}
+    //           className="animate-in fade-in slide-in-from-bottom-4"
+    //           style={{ animationDelay: `${index * 100}ms` }}
+    //         >
+    //           <CertificationItem {...cert} />
+    //         </div>
+    //       ))}
+    //     </div>
+    //   </div>
+    // </section>
+      // <div className="min-h-screen bg-background py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         <header className="text-center mb-12">
           <h1 className="text-4xl font-bold text-foreground mb-3">
@@ -112,7 +133,7 @@ const Certifications = () => {
           ))}
         </div>
       </div>
-    </div>
+    // </div> 
   );
 };
 
