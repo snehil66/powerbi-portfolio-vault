@@ -10,7 +10,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="animate-in fade-in slide-in-from-bottom-4 duration-1000">
-          <p className="text-cyan-400 text-sm md:text-base mb-8 font-mono">$ portfolio.init()</p>
+          {/* <p className="text-cyan-400 text-sm md:text-base mb-8 font-mono">$ portfolio.init()</p> */}
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             Hi, I'm{" "}
