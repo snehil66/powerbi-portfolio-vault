@@ -20,7 +20,7 @@ const ProjectItem = ({ title, description, technologies, githubUrl, liveUrl }: P
           <p className="text-gray-300 mb-4">{description}</p>
           <div className="flex flex-wrap gap-2 mb-4">
             {technologies.map((tech, index) => (
-              <Badge key={index} className=" bg-gray-800/50 text-gray-400 border-gray-700/50 ">
+              <Badge key={index} className=" bg-gray-800/80 text-gray-300 border-gray-700 hover:bg-gray-700 text-sm ">
                 
                 {tech}
               </Badge>
