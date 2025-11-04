@@ -60,12 +60,12 @@ const ProjectItem = ({ title, description, technologies, githubUrl, liveUrl }: P
 
 const Projects = () => {
   const projects: ProjectItemProps[] = [
-    {
-      title: "Power BI Portfolio Vault",
-      description: "A comprehensive portfolio showcasing interactive Power BI dashboards and data visualization projects built with modern web technologies.",
-      technologies: ["TypeScript", "React", "Power BI", "Tailwind CSS"],
-      githubUrl: "https://github.com/snehil66/powerbi-portfolio-vault",
-    },
+    // {
+    //   title: "Power BI Portfolio Vault",
+    //   description: "A comprehensive portfolio showcasing interactive Power BI dashboards and data visualization projects built with modern web technologies.",
+    //   technologies: ["TypeScript", "React", "Power BI", "Tailwind CSS"],
+    //   githubUrl: "https://github.com/snehil66/powerbi-portfolio-vault",
+    // },
     { 
       title: "Loan Advanced Dashboard",
       description: "Advanced analytics dashboard for loan data analysis, providing insights into lending patterns, risk assessment, and portfolio performance.",
@@ -114,7 +114,6 @@ const Projects = () => {
     <section className="py-20 bg-black" id="projects">
       <div className="container mx-auto px-6">
         <h2 className=" text-4xl font-bold mb-4 text-center text-white ">
-          
           Personal Projects
         </h2>
         <p className="text-cyan-400 text-center mb-12 text-lg">
