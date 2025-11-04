@@ -26,7 +26,7 @@ const Hero = () => {
           
           <p className="text-lg md:text-xl mb-8 text-gray-400 max-w-3xl mx-auto leading-relaxed">
             Transforming data into{" "}
-            <span className="text-cyan-400">actionable insights</span> with Power BI, SQL, and advanced analytics. 
+            <span className="text-cyan-400">actionable insights</span> with Power BI, SQL, Python and advanced analytics. 
             Specialized in{" "}
             <span className="text-purple-400">data modeling</span> and delivering{" "}
             <span className="text-blue-400">high-performance dashboards</span>.
