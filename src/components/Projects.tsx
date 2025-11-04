@@ -20,7 +20,8 @@ const ProjectItem = ({ title, description, technologies, githubUrl, liveUrl }: P
           <p className="text-gray-300 mb-4">{description}</p>
           <div className="flex flex-wrap gap-2 mb-4">
             {technologies.map((tech, index) => (
-              <Badge key={index} className="bg-gradient-to-r from-cyan-500/20 to-blue-600/20 text-cyan-400 border-cyan-500/30">
+              <Badge key={index} className=" bg-gray-800/50 text-gray-400 border-gray-700/50 ">
+                
                 {tech}
               </Badge>
             ))}
@@ -65,7 +66,7 @@ const Projects = () => {
       technologies: ["TypeScript", "React", "Power BI", "Tailwind CSS"],
       githubUrl: "https://github.com/snehil66/powerbi-portfolio-vault",
     },
-    {
+    { 
       title: "Loan Advanced Dashboard",
       description: "Advanced analytics dashboard for loan data analysis, providing insights into lending patterns, risk assessment, and portfolio performance.",
       technologies: ["Power BI", "DAX", "SQL", "Data Analysis"],
