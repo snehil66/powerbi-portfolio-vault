@@ -66,12 +66,12 @@ const Projects = () => {
     //   technologies: ["TypeScript", "React", "Power BI", "Tailwind CSS"],
     //   githubUrl: "https://github.com/snehil66/powerbi-portfolio-vault",
     // },
-    { 
-      title: "Loan Advanced Dashboard",
-      description: "Advanced analytics dashboard for loan data analysis, providing insights into lending patterns, risk assessment, and portfolio performance.",
-      technologies: ["Power BI", "DAX", "SQL", "Data Analysis"],
-      githubUrl: "https://github.com/snehil66/Loan_AdvancedDashboard",
-    },
+    // { 
+    //   title: "Loan Advanced Dashboard",
+    //   description: "Advanced analytics dashboard for loan data analysis, providing insights into lending patterns, risk assessment, and portfolio performance.",
+    //   technologies: ["Power BI", "DAX", "SQL", "Data Analysis"],
+    //   githubUrl: "https://github.com/snehil66/Loan_AdvancedDashboard",
+    // },
     {
       title: "Netflix Insights",
       description: "Data analysis project exploring Netflix content trends, viewer patterns, and content performance using Python and visualization libraries.",
@@ -81,7 +81,7 @@ const Projects = () => {
     {
       title: "Car Features and MSRP Analysis",
       description: "Comprehensive analysis of car features and their impact on MSRP, helping understand pricing strategies in the automotive industry.",
-      technologies: ["Python", "Data Analysis", "Machine Learning", "Statistical Analysis"],
+      technologies: ["Excel", "Data Analysis", "Statistical Analysis"],
       githubUrl: "https://github.com/snehil66/Car_Features_and_MSRP_Analysis",
     },
     {
